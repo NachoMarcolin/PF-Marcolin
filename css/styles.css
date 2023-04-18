@@ -345,8 +345,9 @@ min-width: 300px;
     align-items: center;
 }
 
-.footer .footer-2 .columna figure img{
-    width: 150px;
+.logo{
+    min-width: 100px;
+    max-width: 150px;
 }
 
 .footer .footer-2 .columna h2{
