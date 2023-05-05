@@ -316,9 +316,6 @@ h1 {
   font-family: "Lobster", cursive;
   color: black;
 }
-.descripcion .descripcion-2 p {
-  font-size: 20px;
-}
 .descripcion .banner {
   width: 60%;
 }
@@ -504,8 +501,116 @@ h1 {
   font-family: "Lobster", cursive;
   color: black;
 }
-.descripcion .descripcion-2 p {
-  font-size: 20px;
+.descripcion .banner {
+  width: 60%;
+}
+@media (max-width: 800px) {
+  .descripcion .banner {
+    width: 300px;
+    margin-right: auto;
+  }
+}
+
+.banner {
+  width: 60%;
+}
+
+.index-productos {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 7rem;
+  padding: 2%;
+}
+.index-productos .productos {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: white;
+  min-width: 150px;
+  max-width: 400px;
+  min-height: 200px;
+  max-height: 600px;
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.index-productos .productos img {
+  width: 100%;
+}
+.index-productos .productos .caja-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.index-productos .productos .caja-productos .producto-titulo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.index-productos .productos .caja-productos .producto-precio {
+  display: flex;
+  justify-content: center;
+}
+.index-productos .productos .caja-productos .btn {
+  color: black;
+  background-color: #FFE5EC;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  align-self: center;
+  margin-bottom: 5px;
+}
+.index-productos .productos .caja-productos .btn:hover {
+  background-color: white;
+  color: black;
+}
+@media (min-width: 100px) {
+  .index-productos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 720px) {
+  .index-productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1020px) {
+  .index-productos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+}
+
+.descripcion {
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-left: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+}
+@media (max-width: 800px) {
+  .descripcion {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.descripcion .descripcion-2 {
+  font-size: 1rem;
+}
+.descripcion .descripcion-2 h1 {
+  margin: 1%;
+  font-family: "Lobster", cursive;
+  color: black;
 }
 .descripcion .banner {
   width: 60%;
@@ -618,9 +723,6 @@ h1 {
   font-family: "Lobster", cursive;
   color: black;
 }
-.descripcion .descripcion-2 p {
-  font-size: 1rem;
-}
 .descripcion .banner {
   width: 60%;
 }
@@ -731,123 +833,6 @@ h1 {
   margin: 1%;
   font-family: "Lobster", cursive;
   color: black;
-}
-.descripcion .descripcion-2 p {
-  font-size: 1rem;
-}
-.descripcion .banner {
-  width: 60%;
-}
-@media (max-width: 800px) {
-  .descripcion .banner {
-    width: 300px;
-    margin-right: auto;
-  }
-}
-
-.banner {
-  width: 60%;
-}
-
-.index-productos {
-  width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0.5rem;
-  row-gap: 7rem;
-  padding: 2%;
-}
-.index-productos .productos {
-  width: 100%;
-  flex-wrap: wrap;
-  background-color: white;
-  min-width: 150px;
-  max-width: 400px;
-  min-height: 200px;
-  max-height: 600px;
-  border: 2px solid black;
-  border-radius: 20px;
-  overflow: hidden;
-  margin-top: 10px;
-}
-.index-productos .productos img {
-  width: 100%;
-}
-.index-productos .productos .caja-productos {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.index-productos .productos .caja-productos .producto-titulo {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-}
-.index-productos .productos .caja-productos .producto-precio {
-  display: flex;
-  justify-content: center;
-}
-.index-productos .productos .caja-productos .btn {
-  color: black;
-  background-color: #FFE5EC;
-  border: 2px solid white;
-  border-radius: 15px;
-  padding: 5px 10px;
-  align-self: center;
-  margin-bottom: 5px;
-}
-.index-productos .productos .caja-productos .btn:hover {
-  background-color: white;
-  color: black;
-}
-@media (min-width: 100px) {
-  .index-productos {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media (min-width: 720px) {
-  .index-productos {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1020px) {
-  .index-productos {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-h1 {
-  font-family: "Pacifico", cursive;
-}
-
-.descripcion {
-  width: 98%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
-  margin-left: 2%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  color: black;
-}
-@media (max-width: 800px) {
-  .descripcion {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-.descripcion .descripcion-2 {
-  font-size: 1rem;
-}
-.descripcion .descripcion-2 h1 {
-  margin: 1%;
-  font-family: "Lobster", cursive;
-  color: black;
-}
-.descripcion .descripcion-2 p {
-  font-size: 1rem;
 }
 .descripcion .banner {
   width: 60%;
