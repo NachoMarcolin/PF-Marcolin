@@ -1,0 +1,119 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+$color-primario: #FFE5EC;
+$color-secundario: white;
+$tercer-color: black;
+
+.descripcion{
+    width: 100%;
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50px;
+    margin-left: 2%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+
+    @media (max-width: 800px){
+            grid-template-columns: repeat(1,1fr);
+        }
+
+        .descripcion-2{
+            font-size: 1rem;
+            h1{
+                margin: 2%;
+                font-family: 'Lobster', cursive;
+                color: black;
+                }
+        }
+        .banner{
+            width: 60%;
+        }
+    }
+
+
+
+
+.banner{
+    width: 60%;
+}
+
+.index-productos {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: .5rem;
+    row-gap: 7rem;
+    padding: 2%;
+
+    .productos {
+        width: 100%;
+        flex-wrap: wrap;
+        background-color: $color-secundario;
+        min-width: 150px;
+        max-width: 400px;
+        min-height: 200px;
+        max-height: 600px;
+        border: 2px solid $tercer-color;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-top: 10px;
+
+        img {
+            width: 100%;
+        }
+
+        .caja-productos {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .producto-titulo {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                margin: 2%;
+            }
+
+            .producto-precio {
+                display: flex;
+                justify-content: center;
+            }
+
+            .btn {
+                color: $tercer-color;
+                background-color: $color-primario;
+                border: 2px solid $color-secundario;
+                border-radius: 15px;
+                padding: 5px 10px;
+                align-self: center;
+                margin-bottom: 5px;
+
+                &:hover {
+                    background-color: $color-secundario;
+                    color: $tercer-color;
+                }
+            }
+        }
+    }
+
+    @media (min-width:100px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    @media (min-width: 720px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1020px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
