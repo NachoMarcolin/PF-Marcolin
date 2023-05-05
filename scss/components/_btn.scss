@@ -1,0 +1,15 @@
+$color-primario: #d5c5c8;
+$tercer-color: black;
+
+.btn{
+    color: $color-primario;
+    background-color: $tercer-color;
+    border: 2px solid $tercer-color;
+    border-radius: 15px;
+    padding: 0px 10px;
+    align-self: center;
+    &:hover{
+    background-color: $tercer-color;
+    color: $color-primario;
+    }
+}

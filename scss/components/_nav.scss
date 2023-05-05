@@ -1,0 +1,61 @@
+.nav-list a {
+    font-family: 'Lobster', cursive;
+}
+
+
+$color-primario: #d5c5c8;
+$color-secundario: white;
+$tercer-color: black;
+$cuarto-color: #FFE5EC;
+
+
+.pages {
+    width: 100%;
+    background-color: $color-primario;
+    padding: 1%;
+    border: 10px solid $cuarto-color;
+
+    ul {
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        padding: 0%;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            color: $color-secundario;}
+
+        li {
+            display: inline-block;
+            margin-left: 5%;
+            transition: all 0.5s ease;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: $color-secundario;
+                color: $color-secundario;
+                border-radius: 4px;
+            }
+
+            a {
+                color: $tercer-color;
+                text-decoration: none;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

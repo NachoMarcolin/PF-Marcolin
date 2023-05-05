@@ -254,7 +254,6 @@ ul li a{
 
 .caja-productos{
     display: flex;
-
     flex-direction: column;
     justify-content: space-around;
 

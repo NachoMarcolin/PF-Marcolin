@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+$color-primario:#FFE5EC;
+
+body{
+    width: 100%;
+    background-color:$color-primario;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.imagen{
+    width: 100%;
+}
