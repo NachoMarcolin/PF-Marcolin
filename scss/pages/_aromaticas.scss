@@ -7,13 +7,13 @@ $color-secundario: white;
 $tercer-color: black;
 
 .descripcion{
-    width: 100%;
+    width: 98%;
     display: grid ;
     grid-template-columns: repeat(2,1fr);
     grid-gap:50px;
     margin-left: 2%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: black;
 
     @media (max-width: 800px){
@@ -23,13 +23,20 @@ $tercer-color: black;
         .descripcion-2{
             font-size: 1rem;
             h1{
-                margin: 2%;
+                margin: 1%;
                 font-family: 'Lobster', cursive;
                 color: black;
                 }
+            p{
+                font-size: 20px;
+            }
         }
         .banner{
             width: 60%;
+            @media (max-width:800px){
+                width: 380px;
+                margin-right: auto;
+            }
         }
     }
 
