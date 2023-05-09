@@ -87,21 +87,6 @@ $tercer-color: black;
                 display: flex;
                 justify-content: center;
             }
-
-            .btn {
-                color: $tercer-color;
-                background-color: $color-primario;
-                border: 2px solid $color-secundario;
-                border-radius: 15px;
-                padding: 5px 10px;
-                align-self: center;
-                margin-bottom: 5px;
-
-                &:hover {
-                    background-color: $color-secundario;
-                    color: $tercer-color;
-                }
-            }
         }
     }
 

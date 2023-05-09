@@ -16,16 +16,18 @@ body {
 }
 
 .btn {
-  color: #d5c5c8;
-  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #CFA8AF;
   border: 2px solid black;
   border-radius: 15px;
   padding: 0px 10px;
   align-self: center;
+  margin-top: 5px;
 }
 .btn:hover {
   background-color: black;
-  color: #d5c5c8;
+  color: #CFA8AF;
 }
 
 .index-productos {
@@ -67,19 +69,9 @@ body {
 .index-productos .productos .caja-productos .producto-precio {
   display: flex;
   justify-content: center;
-}
-.index-productos .productos .caja-productos .btn {
-  color: black;
-  background-color: #FFE5EC;
-  border: 2px solid white;
-  border-radius: 15px;
-  padding: 5px 10px;
-  align-self: center;
-  margin-bottom: 5px;
-}
-.index-productos .productos .caja-productos .btn:hover {
-  background-color: white;
-  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  background-color: #CFA8AF;
 }
 @media (min-width: 100px) {
   .index-productos {
@@ -125,6 +117,9 @@ body {
   margin-top: 100px;
   margin: 10px;
 }
+.carousel-inferior .slide .carousel-indicators button {
+  background-color: black;
+}
 
 .footer {
   width: 100%;
@@ -138,6 +133,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
   padding: 35px 0px;
+}
+.footer .footer-2 .columna .redes-sociales {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 .footer .footer-2 .columna figure {
   width: 100%;
@@ -197,14 +197,18 @@ header {
   justify-content: space-between;
 }
 
+.logo-header {
+  height: 70px;
+}
+
 .titulo {
   position: relative;
-  width: 80%;
+  width: 100%;
   padding: 3%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .navbar {
@@ -212,7 +216,7 @@ header {
   align-items: center;
   height: 100%;
   padding: 1%;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 .navbar .searchbox {
   position: relative;
@@ -257,7 +261,7 @@ header {
 
 .pages {
   width: 100%;
-  background-color: #d5c5c8;
+  background-color: #CFA8AF;
   padding: 1%;
   border: 10px solid #FFE5EC;
 }
@@ -370,19 +374,6 @@ h1 {
 .index-productos .productos .caja-productos .producto-precio {
   display: flex;
   justify-content: center;
-}
-.index-productos .productos .caja-productos .btn {
-  color: black;
-  background-color: #FFE5EC;
-  border: 2px solid white;
-  border-radius: 15px;
-  padding: 5px 10px;
-  align-self: center;
-  margin-bottom: 5px;
-}
-.index-productos .productos .caja-productos .btn:hover {
-  background-color: white;
-  color: black;
 }
 @media (min-width: 100px) {
   .index-productos {

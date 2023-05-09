@@ -13,14 +13,18 @@ header {
     justify-content: space-between;
 }
 
+.logo-header{
+    height:70px;
+}
+
 .titulo {
     position: relative;
-    width: 80%;
+    width: 100%;
     padding: 3%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .navbar {
@@ -28,7 +32,7 @@ header {
     align-items: center;
     height: 100%;
     padding: 1%;
-    justify-content: space-between;
+    justify-content: flex-end;
 
     .searchbox {
         position: relative;

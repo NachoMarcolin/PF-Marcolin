@@ -1,13 +1,15 @@
-$color-primario: #d5c5c8;
+$color-primario:#CFA8AF ;
 $tercer-color: black;
 
 .btn{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
     color: $color-primario;
-    background-color: $tercer-color;
     border: 2px solid $tercer-color;
     border-radius: 15px;
     padding: 0px 10px;
     align-self: center;
+    margin-top: 5px;
     &:hover{
     background-color: $tercer-color;
     color: $color-primario;
