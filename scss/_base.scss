@@ -8,9 +8,10 @@ $color-primario:#FFE5EC;
 
 body{
     width: 100%;
-    background-color:$color-primario;
+    background:linear-gradient($color-primario,white) ;
     font-family: sans-serif;
     margin: 0;
+
 }
 
 .imagen{

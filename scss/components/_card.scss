@@ -23,6 +23,7 @@ $tercer-color: black;
         border-radius: 20px;
         overflow: hidden;
         margin-top: 100px;
+        box-shadow: 10px 10px #903c4a;
 
         img{
             width: 100%;
@@ -32,6 +33,7 @@ $tercer-color: black;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            background-color: $color-primario;
 
             .producto-titulo {
                 display: flex;
@@ -67,7 +69,7 @@ $tercer-color: black;
 
 
 .coments-2{
-    background-color: #FFE5EC;
+    background-color: none;
     display: flex;
     gap: 170px;
     margin: 2%;
